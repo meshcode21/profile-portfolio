@@ -10,6 +10,7 @@
   header .hero {
     flex-direction: column-reverse;
     justify-content: center;
+    height: 100vh;
   }
   header .hero .img-container {
     width: unset;
@@ -28,5 +29,16 @@
   }
   header .hero .hero-container {
     width: unset;
+  }
+  section .container {
+    font-size: 16px;
+  }
+  section .container .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  section .container .box-container .box {
+    width: 90%;
+    height: 120px;
   }
 }/*# sourceMappingURL=responsive.css.map */
