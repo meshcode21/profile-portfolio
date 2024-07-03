@@ -1,0 +1,44 @@
+@media screen and (max-width:1080px) {
+    .hero {
+        .hero-container {
+            .textarea {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    nav {
+        .nav-container {
+            .menu {
+                display: none;
+            }
+        }
+    }
+    header {
+        .hero {
+            flex-direction: column-reverse;
+            justify-content: center;
+            .img-container {
+                // background-color: red;
+                width: unset;
+                display: flex;
+                justify-content: center;
+                #img1 {
+                    display: none;
+                }
+                #img2 {
+                    display: block;
+                }
+                img {
+                    width: max(230px, 50%);
+                    border-radius: 50%;
+                }
+            }
+            .hero-container {
+                width: unset;
+            }
+        }
+    }
+}

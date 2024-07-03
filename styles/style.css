@@ -52,21 +52,21 @@ nav .nav-container {
 nav .nav-container .logo {
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1em;
 }
 nav .nav-container .logo .material-symbols-outlined {
   font-size: 40px;
 }
 nav .nav-container .menu {
   display: flex;
-  width: 30%;
+  width: max(290px, 30%);
   justify-content: space-between;
 }
 nav .nav-container .toggle-btn {
   padding: 7px 17px;
   border-radius: 20px;
   border: 2px solid black;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   cursor: pointer;
 }
 
@@ -82,13 +82,13 @@ header .hero .hero-container {
   font-family: "Outfit", sans-serif;
 }
 header .hero .hero-container .textarea h2 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: 500;
   padding: 10px 0;
 }
 header .hero .hero-container .textarea h1 {
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3em;
 }
 header .hero .hero-container .button-box {
   height: 100px;
@@ -96,16 +96,17 @@ header .hero .hero-container .button-box {
   align-items: end;
 }
 header .hero .hero-container .button-box a {
-  padding: 0.7rem 1.9rem;
-  border-radius: 3rem;
-  font-size: 0.9rem;
+  padding: 0.7em 1.9em;
+  border-radius: 3em;
+  font-size: 0.9em;
   background: #0064ff;
   color: white;
 }
 header .hero .img-container {
   width: 50%;
-  display: flex;
-  justify-content: center;
+}
+header .hero .img-container #img2 {
+  display: none;
 }
 header .hero .img-container img {
   width: 90%;
@@ -130,7 +131,7 @@ section .container {
 }
 section .container h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2em;
   line-height: 90px;
 }
 section .container .box-container {
@@ -160,12 +161,12 @@ section .container .box-container .box .box-img {
 }
 section .container .box-container .box .box-img .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-  font-size: 5rem;
+  font-size: 5em;
   color: #39404b;
 }
 section .container .box-container .box .box-text {
   height: 80%;
-  font-size: 0.8rem;
+  font-size: 0.8em;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -175,9 +176,9 @@ section .container .box-container .box .box-text h2 {
   font-weight: 500;
 }
 section .container .box-container .box .box-text .btn {
-  padding: 0.5rem 1.9rem;
-  border-radius: 3rem;
-  font-size: 0.9rem;
+  padding: 0.5em 1.9em;
+  border-radius: 3em;
+  font-size: 0.9em;
   background: #0064ff;
   color: white;
 }
