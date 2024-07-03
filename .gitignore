@@ -1,2 +1,4 @@
-styles/style.scss
-styles/style.css.scss
+#style.scss
+*.scss
+*.mp3
+*.css
