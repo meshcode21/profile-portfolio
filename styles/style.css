@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 18px;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.nav_border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+.nav_shadow {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1019607843);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: whitesmoke;
+}
+
+nav .nav-container {
+    box-sizing: unset;
+    font-family: "Rubik", sans-serif;
+    width: min(1230px, 90vw);
+    height: 70px;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-container .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+nav .nav-container .logo .material-symbols-outlined {
+    font-size: 40px;
+}
+
+nav .nav-container .menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav .nav-container .toggle-btn {
+    padding: 7px 17px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+header .hero {
+    width: min(1230px, 90vw);
+    height: min(750px, 100vh);
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+header .hero .hero-container {
+    width: 50%;
+    font-family: "Outfit", sans-serif;
+}
+
+header .hero .hero-container .textarea h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+header .hero .hero-container .textarea h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+header .hero .hero-container .button-box {
+    height: 100px;
+    display: flex;
+    align-items: end;
+}
+
+header .hero .hero-container .button-box a {
+    padding: 0.7rem 1.9rem;
+    border-radius: 3rem;
+    font-size: 0.9rem;
+    background: #0064ff;
+    color: white;
+}
+
+header .hero .img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header .hero .img-container img {
+    width: 85%;
+    border-radius: 30% 0;
+    box-shadow: 0px 0px 10px rgb(80, 80, 80);
+}
+
+footer {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*# sourceMappingURL=style.css.map */
