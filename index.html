@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeshCode</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="nav_content" class="nav-container nav_border">
+            <a href="#" class="logo">
+                <span class="material-symbols-outlined">deployed_code</span><span><div style="font-size: 0.8rem;">Mesh</div><div>Code</div></span>
+            </a>
+            <div class="menu">
+                <a href="#">Profile</a>
+                <a href="#">Abour Me</a>
+                <a href="#">My Works</a>
+            </div>
+            <div class="toggle-btn">
+                <span>Follow Me</span>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="test"></div> -->
+    <header>
+        <div class="hero">
+            <div class="hero-container">
+                <div class="textarea">
+                    <h2>Hey Guys</h2>
+                    <h1>It's Mahesh Udas</h1>
+                    <h1>Begineer Developer</h1>
+                </div>
+                <div class="button-box">
+                    <a href="#">View My Works</a>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="images/my_pic.jpg" alt="profile">
+            </div>
+        </div>
+    </header>
+    <footer>
+        <p>All rights reserved &copy;Copyright</p>
+    </footer>
+</body>
+<script>
+    const navbar = document.getElementById('navbar');
+    const nav_content = document.getElementById('nav_content');
+
+    window.addEventListener("scroll", (e) => {
+        var scrollPosition = window.scrollY;
+        if (scrollPosition > 70) {
+            nav_content.classList.remove('nav_border');
+            navbar.classList.add('nav_shadow');
+        } else {
+            nav_content.classList.add('nav_border');
+            navbar.classList.remove('nav_shadow');
+        }
+    })
+</script>
+
+</html>
