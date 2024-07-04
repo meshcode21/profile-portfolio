@@ -16,6 +16,7 @@
     width: unset;
     display: flex;
     justify-content: center;
+    padding-bottom:60px;
   }
   header .hero .img-container #img1 {
     display: none;
